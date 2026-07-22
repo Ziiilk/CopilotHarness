@@ -1,0 +1,9 @@
+{
+  "name": "strict",
+  "requirePlan": true,
+  "requirePlanApproval": true,
+  "requireReview": true,
+  "requireWriteScope": true,
+  "maxUnresolvedToolFailures": 0,
+  "blockDestructiveCommands": true
+}

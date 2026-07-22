@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "node \"${PLUGIN_ROOT}/src/hook.mjs\" pre-tool",
+        "timeoutSec": 5
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "command": "node \"${PLUGIN_ROOT}/src/hook.mjs\" post-tool",
+        "timeoutSec": 5
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "command": "node \"${PLUGIN_ROOT}/src/hook.mjs\" stop",
+        "timeoutSec": 5
+      }
+    ],
+    "preCompact": [
+      {
+        "type": "command",
+        "command": "node \"${PLUGIN_ROOT}/src/hook.mjs\" pre-compact",
+        "timeoutSec": 5
+      }
+    ]
+  }
+}

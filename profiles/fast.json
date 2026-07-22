@@ -1,0 +1,9 @@
+{
+  "name": "fast",
+  "requirePlan": false,
+  "requirePlanApproval": false,
+  "requireReview": false,
+  "requireWriteScope": false,
+  "maxUnresolvedToolFailures": 1,
+  "blockDestructiveCommands": true
+}

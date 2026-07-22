@@ -1,0 +1,12 @@
+{
+  "name": "reliable-copilot-harness",
+  "description": "Codex-inspired task scoping, tool policy, verification evidence, and completion gates for GitHub Copilot.",
+  "version": "0.1.0",
+  "author": {
+    "name": "CopilotHarness"
+  },
+  "skills": "skills/",
+  "agents": "agents/",
+  "hooks": "hooks.json",
+  "mcpServers": ".mcp.json"
+}

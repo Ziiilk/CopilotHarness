@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "reliable-harness": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/src/mcp-server.mjs"
+      ]
+    }
+  }
+}

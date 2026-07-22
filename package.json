@@ -1,0 +1,15 @@
+{
+  "name": "reliable-copilot-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A pluggable reliability harness for GitHub Copilot agents.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/cli.mjs && node --check src/contracts.mjs && node --check src/core.mjs && node --check src/hook.mjs && node --check src/mcp-server.mjs && node --check src/policy.mjs && node --check src/state-store.mjs",
+    "harness": "node src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

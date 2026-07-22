@@ -1,0 +1,4 @@
+.copilot-harness/
+node_modules/
+coverage/
+*.log

@@ -1,0 +1,4 @@
+.git/
+.copilot-harness/
+coverage/
+*.log
